@@ -73,7 +73,7 @@ export default {
   methods: {
     fetchAppData: function(){
       var _self = this;
-      fetch( '/data/adjectives.json' )
+      fetch( 'data/adjectives.json' )
       .then( response => response.json() )
       .then( data => {
         for( var item in data ){
