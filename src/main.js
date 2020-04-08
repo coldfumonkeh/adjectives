@@ -11,7 +11,7 @@ Vue.use(BootstrapVue)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 // Hover
-import 'hover.css/css/hover-min.css';
+// import 'hover.css/css/hover-min.css';
 
 Vue.config.productionTip = false
 
