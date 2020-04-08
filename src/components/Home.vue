@@ -170,7 +170,7 @@ div#generated {
 @media (min-width: 320px) and (max-width: 480px) {
   div#generated {
     font-size: 2.5rem;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 </style>
