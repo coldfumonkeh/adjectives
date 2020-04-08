@@ -73,7 +73,7 @@ export default {
   methods: {
     fetchAppData: function(){
       var _self = this;
-      fetch( 'data/adjectives.json' )
+      fetch( '/adjectives/data/adjectives.json' )
       .then( response => response.json() )
       .then( data => {
         for( var item in data ){
@@ -127,7 +127,7 @@ export default {
   font-weight: bold;
 }
 div#generated {
-  margin-top: 50px;
+  margin: 50px 0;
   font-size: 100px;
   border: 2px dashed #b4d455;
   cursor: pointer;
@@ -164,5 +164,13 @@ div#generated {
 .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  div#generated {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
 }
 </style>
