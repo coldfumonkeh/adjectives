@@ -7,7 +7,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="text-center">
-            <p class="footerText">Developed with love by <a href="https://www.monkehworks.com">Matt Gifford</a> and Tim Gifford.</p>
+            <p class="footerText">Developed with love by <a href="https://www.monkehworks.com" target="_blank">Matt Gifford</a> and <a href="https://www.linkedin.com/in/tim-gifford-212b4a2a" target="_blank">Tim Gifford</a>.</p>
             <p class="footerText">Built under quarantine conditions 2020. Stay Home. Stay Safe</p>
           </div>
         </div>
