@@ -31,6 +31,11 @@
 
       <b-col>
 
+        <div id="introText" v-if="!generatedCombination">
+          <p class="leadText">I hope this email finds you well in these<br /> ____ and ____ times.</p>
+          <p class="subText">Get some variation for your opening adjectives. Simply generate, click to copy and then paste</p>
+        </div>
+
         <div id="generated" class="hvr-shrink" 
           v-if="generatedCombination"
           v-b-tooltip.hover :title="tooltipText"
@@ -126,6 +131,13 @@ export default {
   width: 300px;
   font-weight: bold;
 }
+div#introText {
+  margin: 50px 0;
+}
+p.leadText {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
 div#generated {
   margin: 50px 0;
   font-size: 100px;
@@ -171,6 +183,13 @@ div#generated {
   div#generated {
     font-size: 2.5rem;
     margin-top: 40px;
+  }
+  p.leadText {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  p.subText {
+    margin: 0 20px;
   }
 }
 </style>
